@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Exemplo jQuery</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        alert("Teste de Carga no JS");
+      })
+    </script>
+
+  </head>
+  <body>
+
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Exemplo</legend>
+        <div>
+          <label for="iEsporteFut">Futebol</label>
+          <input type="radio" name="tEsporte" value="fut" id="iEsporteFut" checked="checked"/>
+        </div>
+        <div>
+          <label for="iEsporteVolei">Volei</label>
+          <input type="radio" name="tEsporte" value="volei" id="iEsporteVolei"/>
+        </div>
+        <div>
+          <label for="iEsporteBasq">Basquete</label>
+          <input type="radio" name="tEsporte" value="basq" id="iEsporteBasq"/>
+        </div>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
